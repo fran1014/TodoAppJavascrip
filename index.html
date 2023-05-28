@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TodoApp</title>
+  <link rel="stylesheet" href="./css/stylesheet.css">
+  <script src="./js/data.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <header>
+
+    <h3>My Agenda</h3>
+    <form action="#" method="get" id="form">
+      <input type="text" placeholder="Enter To-Do" name="task" id="title">
+
+      <select id="selectUrgency">
+        <option value="">Select Urgency</option>
+        <option value="1">Daily</option>
+        <option value="2">Urgent</option>
+        <option value="3">Monthly</option>
+      </select>
+      <input type="submit" value="Save">
+    </form>
+
+
+  </header>
+
+  <section>
+
+    <input type="text" placeholder="Find To-Do" id="findToDo">
+    <select name="" id="findUrgency">
+      <option value="">FindUrgency</option>
+      <option value="Daily">Daily</option>
+      <option value="Urgent">Urgent</option>
+      <option value="Monthly">Monthly</option>
+
+
+
+
+    </select>
+    <div id="content">
+      <ul id="entries">
+        <li> </li>
+      </ul>
+    </div>
+
+  </section>
+
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
